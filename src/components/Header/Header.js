@@ -3,15 +3,13 @@ import styles from "./header.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
-
-
 export default function Header() {
   return (
     <header className={styles.header}>
-      <div>
+      <div className={styles.logo}>
         <p>MyMovieApp</p>
       </div>
-      <div>
+      <div className={styles.navigation}>
         <nav>
           <ul>
             <li>Séries</li>

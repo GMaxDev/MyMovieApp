@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "@fortawesome/fontawesome-svg-core/styles.css"
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { roboto, montserrat } from "@/font";
 
 import Header from "@/components/Header/Header";
 
@@ -12,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Header/>
+      <body className={`${roboto.variable} ${montserrat.variable}`}>
+        <Header />
         <main>{children}</main>
       </body>
     </html>

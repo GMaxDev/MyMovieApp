@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.main}>
-        <MediaCard />
+        <MediaCard mediaId={10}/>
       </div>
     </div>
   );

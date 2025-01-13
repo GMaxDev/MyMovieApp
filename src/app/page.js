@@ -1,4 +1,3 @@
-
 import MediaCard from "@/components/Header/media-card/MediaCard";
 import styles from "./page.module.css";
 

@@ -1,9 +1,9 @@
 import Like from "./Like";
 
 const PostList = async () => {
-  const response = await fetch("https://jsonplaceholder.typicode.com/posts")
-  const posts = await response.json()
-  console.log(posts)
+  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const posts = await response.json();
+  console.log(posts);
   return (
     <div>
       {posts.map((post) => (
@@ -14,6 +14,6 @@ const PostList = async () => {
       ))}
     </div>
   );
-}
+};
 
-export default PostList
+export default PostList;

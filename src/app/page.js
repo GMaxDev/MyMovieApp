@@ -1,4 +1,4 @@
-import MediaCard from "@/components/Header/media-card/MediaCard";
+import MediaCard from "@/components/media-card/MediaCard";
 import styles from "./page.module.css";
 import PostList from "@/components/PostList";
 

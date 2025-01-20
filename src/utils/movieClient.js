@@ -1,6 +1,7 @@
 import "server-only"
 
 export const getMovieByPath =(path, language = 'fr-FR') => {
+  console.log("process.env:", process.env)
   const url = new URL(`${process.env.TMDB_API_URL}${path}`)
   url.searchParams.append("api_key", process.env.TMDB_API_KEY)
   url.searchParams.append("language", language)

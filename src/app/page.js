@@ -1,13 +1,12 @@
 import MediaCard from "@/components/media-card/MediaCard";
 import styles from "./page.module.css";
-import PostList from "@/components/PostList";
+import Popular from "@/components/popular/Popular";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <div className={styles.main}>
-        <MediaCard mediaId={10}/>
-        <PostList />
+        <Popular />
       </div>
     </div>
   );
